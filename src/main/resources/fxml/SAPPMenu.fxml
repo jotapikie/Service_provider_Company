@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+            prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="lapr.project.spapp.ui.controllers.MenuServiceProviderControllerUI">
+    <children>
+        <Label layoutX="61.0" layoutY="36.0" text="Service Provider Application">
+            <font>
+                <Font name="System Bold Italic" size="36.0"/>
+            </font>
+        </Label>
+        <Button fx:id="btnImportOders" layoutX="205.0" layoutY="145.0" mnemonicParsing="false"
+                onAction="#onActionImportExecutionOrders" prefHeight="30.0" prefWidth="190.0"
+                text="Import Execution Orders">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+        <Button fx:id="btnConsultOders" layoutX="205.0" layoutY="206.0" mnemonicParsing="false"
+                onAction="#onActionConsultExecutionOrders" prefHeight="30.0" prefWidth="190.0"
+                text="Consult Execution Orders">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+        <Button fx:id="btnClientTimeline" layoutX="205.0" layoutY="264.0" mnemonicParsing="false"
+                onAction="#onActionAnalyzeClientTimeline" prefHeight="30.0" prefWidth="190.0"
+                text="Analyze Client Timeline">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+        <Button fx:id="btnLogout" layoutX="268.0" layoutY="319.0" mnemonicParsing="false" onAction="#onActionLogout"
+                prefWidth="65.0" text="Close">
+            <font>
+                <Font size="14.0"/>
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

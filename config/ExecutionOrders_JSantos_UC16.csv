@@ -1,0 +1,3 @@
+Number;ClientName;ClientDistance(kms);Category;ServiceType;StartDate;StartTime;Address;Locality;ZipCode
+3;Joana Santos;0.77;Plumber;FixedService;05/06/2019;19:00;R. Cegonheira, number 3;Maia;4470-528
+4;Joana Santos;0.77;Automotive Mechanic;LimitedService;08/06/2019;09:00;R. Cegonheira, number 3;Maia;4470-528
